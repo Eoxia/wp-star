@@ -1,0 +1,46 @@
+.wpst-list .wpst-list-note .wpst-note {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0.4em 0;
+
+	.wpst-note-label {
+		width: 50%;
+		font-size: 16px;
+		color: rgba(0,0,0,0.8);
+	}
+	.wpst-note-star {
+		width: 50%;
+		text-align: right;
+	}
+	.wpst-note-description {
+		width: 100%;
+		font-size: 12px;
+		color: rgba(0,0,0,0.8);
+		font-weight: 400;
+	}
+}
+
+// Etoiles
+.wpst-list .wpst-note .wpst-note-star {
+	color: #ffba17;
+
+	&.wpst-no_note {
+		.fa {
+			color: #cacaca;
+		}
+		.fa:before {
+			content: '\f005';
+		}
+	}
+
+	@for $i from 1 through 5 {
+		&.wpst-#{$i} {
+			@for $v from 1 through $i {
+				.fa:nth-of-type(#{$v}) {
+					&:before { content: '\f005'; }
+				}
+			}
+		}
+	}
+
+}

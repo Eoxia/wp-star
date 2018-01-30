@@ -1,0 +1,13 @@
+{
+	"name": "Test Core",
+	"slug": "core",
+	"version": "0.1.0",
+	"description": "Les fichiers core du plugin",
+	"path": "core/",
+	"dependencies": {
+		"class": {},
+		"helper": {},
+		"util": {},
+		"action": {}
+	}
+}
