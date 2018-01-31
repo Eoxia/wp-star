@@ -31,7 +31,7 @@ class wp_star_Core_Action {
 		add_action( 'wp_enqueue_scripts', array( $this, 'callback_mixed_enqueue_scripts' ), 11 );
 		add_action( 'tgmpa_register', array( wp_star_Util::g(), 'wp_star_register_required_plugins' ), 11 );
 
-	 add_action( 'init', array( $this, 'callback_plugins_loaded' ) ); // a modifier
+		add_action( 'init', array( $this, 'callback_plugins_loaded' ) );
 	}
 
 	/**
@@ -50,11 +50,11 @@ class wp_star_Core_Action {
 	/**
 	 * Initialise le fichier MO
 	 *
-	 * @since 6.0.0
-	 * @version 6.4.0
+	 * @since 0.1.0
+	 * @version 0.1.0
 	 */
 	public function callback_plugins_loaded() {
-		load_plugin_textdomain( 'digirisk', false, WP_STAR_PLUGIN_DIR . '/core/asset/languages/' );
+		load_plugin_textdomain( 'wp-star', false, WP_STAR_PLUGIN_DIR . '/core/asset/languages/' );
 	}
 }
 

@@ -8,8 +8,8 @@ Author:       Eoxia
 Author URI:   https://eoxia.com
 License:      GPL2
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
-Domain Path: /core/assets/languagesqsdsqdsqdqsdqdqdsqdsqdsqdqddsdsqdsqqqqqqqqqqqqqSD A modifier
-Text Domain: digiriskXCCXC a modifier
+Domain Path: /core/assets/languages/
+Text Domain: wp-star
 */
 
 DEFINE( 'WP_STAR_PLUGIN_PATH', realpath( plugin_dir_path( __FILE__ ) ) . '/' );

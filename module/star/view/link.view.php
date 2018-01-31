@@ -25,7 +25,7 @@ namespace wp_star;
 				<?php if ( ! empty( $wpst_link_icon ) ) : ?>
 					<i class="fa <?php echo esc_html( $wpst_link_icon ); ?>"></i>
 				<?php endif; ?>
-				<span><?php echo ! empty( $wpst_link_label ) ? esc_html( $wpst_link_label ) : esc_html_e( 'Voir', 'wp-star' ); ?></span>
+				<span><?php echo ! empty( $wpst_link_label ) ? esc_html( $wpst_link_label ) : esc_html_e( 'View more', 'wp-star' ); ?></span>
 			</a>
 		<?php endif; ?>
 

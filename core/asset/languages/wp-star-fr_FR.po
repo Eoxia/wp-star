@@ -1,0 +1,120 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Star v1.x.x\n"
+"POT-Creation-Date: 2018-01-31 15:49+0100\n"
+"PO-Revision-Date: 2018-01-31 15:55+0100\n"
+"Last-Translator: \n"
+"Language-Team: Eoxia dev@eoxia.com\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;_n_noop\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: core/external/eo-framework\n"
+"X-Poedit-SearchPathExcluded-1: core/class/class-tgm-plugin-activation.php\n"
+
+#: core/util/util.better-star.php:75
+msgid "Install Required Plugins"
+msgstr "Installer les plugins requis"
+
+#: core/util/util.better-star.php:76
+msgid "Install Plugins"
+msgstr "Installer les plugins"
+
+#: core/util/util.better-star.php:77
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Installation du plugin : %s"
+
+#: core/util/util.better-star.php:78
+msgid "Something went wrong with the plugin API."
+msgstr "Une erreur est survenue lors de l'utilisation de l'API du plugin."
+
+#: core/util/util.better-star.php:79
+#, php-format
+msgid "This theme requires the following plugin installed or update: %1$s."
+msgstr "Ce thème nécessite le plugin %1$s installé ou à jour."
+
+#: core/util/util.better-star.php:80
+#, php-format
+msgid "This theme recommends the following plugin installed or updated: %1$s."
+msgstr "Ce thème recommande que le plugin %1$s soit installé ou à jour."
+
+#: core/util/util.better-star.php:81
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgstr ""
+"Désolé, vous n'avez pas l'autorisation d'installer le plugin %s. Veuillez "
+"contacter l'administrateur de votre site pour obtenir de l'aide."
+
+#: core/util/util.better-star.php:82
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr "Le plugin %1$s est obligatoire mais il est actuellement inactif."
+
+#: core/util/util.better-star.php:83
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr "Le plugin %1$s est recommandé  mais il est actuellement inactif."
+
+#: core/util/util.better-star.php:84
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgstr ""
+"Désolé, vous n'avez pas l'autorisation d'activer  le plugin %s. Veuillez "
+"contacter l'administrateur de votre site pour obtenir de l'aide."
+
+#: core/util/util.better-star.php:85
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+"Le plugin suivant nécessite une mise à jour pour assurer un maximum de "
+"compatibilité avec le thème : %1$s."
+
+#: core/util/util.better-star.php:86
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgstr ""
+"Désolé, vous n'avez pas l'autorisation de mettre à jour  le plugin %s. "
+"Veuillez contacter l'administrateur de votre site pour obtenir de l'aide."
+
+#: core/util/util.better-star.php:87
+msgid "Go Install Plugin"
+msgstr "Installer plugin"
+
+#: core/util/util.better-star.php:88
+msgid "Go Activate Plugin"
+msgstr "Activer plugin"
+
+#: core/util/util.better-star.php:89
+msgid "Return to Required Plugins Installer"
+msgstr "Retourner à la page d'installation des plugins requis"
+
+#: core/util/util.better-star.php:90
+msgid "Plugin activated successfully."
+msgstr "Le plugin a correctement été activé."
+
+#: core/util/util.better-star.php:91
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Tous les plugins ont été installés et correctement activés. %s"
+
+#: module/star/view/link.view.php:28
+msgid "View more"
+msgstr "Voir"
