@@ -24,20 +24,31 @@
 .wpst-list .wpst-note .wpst-note-star {
 	color: #ffba17;
 
-	&.wpst-no_note {
-		.fa {
-			color: #cacaca;
+	.wpst-note-icon {
+		@extend .far;
+		&::before {
+			content: fa-content($fa-var-star);
 		}
-		.fa:before {
-			content: '\f005';
+	}
+
+	&.wpst-no_note {
+		.wpst-note-icon {
+			@extend .fas;
+			color: #cacaca;
+			&::before {
+				content: fa-content($fa-var-star);
+			}
 		}
 	}
 
 	@for $i from 1 through 5 {
 		&.wpst-#{$i} {
 			@for $v from 1 through $i {
-				.fa:nth-of-type(#{$v}) {
-					&:before { content: '\f005'; }
+				.wpst-note-icon:nth-of-type(#{$v}) {
+					@extend .fas;
+					&::before {
+						content: fa-content($fa-var-star);
+					}
 				}
 			}
 		}
