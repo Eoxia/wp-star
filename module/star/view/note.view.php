@@ -23,7 +23,7 @@ namespace wp_star;
 			<div class="wpst-note-label"><?php echo esc_html( $wpst_note_label ); ?></div>
 			<div class="wpst-note-star wpst-<?php echo esc_html( $wpst_note_star ); ?>">
 				<?php for ( $i = 0; $i < 5; $i++ ) : ?>
-					<i class="fa fa-star-o"></i>
+					<div class="wpst-note-icon"></div>
 				<?php endfor; ?>
 			</div>
 			<div class="wpst-note-description"><?php echo esc_html( $wpst_note_description ); ?></div>
