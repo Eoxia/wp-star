@@ -3,11 +3,11 @@
 Plugin Name:  WP Star 🌟
 Plugin URI:   https://eoxia.com
 Description:  A tool used to compare everything you want with design to enrich your WordPress posts.
-Version:      0.1.0
+Version:      1.0.0
 Author:       Eoxia
 Author URI:   https://eoxia.com
-License:      GPL2
-License URI:  https://www.gnu.org/licenses/gpl-2.0.html
+license:      AGPLv3
+License URI:  https://spdx.org/licenses/AGPL-3.0-or-later.html
 Domain Path: /core/assets/languages/
 Text Domain: wp-star
 */

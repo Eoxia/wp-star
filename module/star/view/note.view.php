@@ -1,14 +1,17 @@
 <?php
 /**
- * Eoxia Mega Menu Class. Extends of the Walker Nav Menu WordPress
+ * View of module star
  *
- * @author Eoxia <contact@eoxia.com>
- * @since 1.0.0
- * @version 1.3.0
- * @package beflex
+ * @author    Eoxia <dev@eoxia.com>
+ * @copyright (c) 2006-2018 Eoxia <dev@eoxia.com>
+ * @license   AGPLv3 <https://spdx.org/licenses/AGPL-3.0-or-later.html>
+ * @package   WP_Star\star\Actions
+ * @since     1.0.0
  */
 
 namespace wp_star;
+
+defined( 'ABSPATH' ) || exit;
 
 ?>
 <div class="wpst-list-note">

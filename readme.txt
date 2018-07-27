@@ -1,11 +1,11 @@
-﻿=== WP Star ===
+=== Annonces ===
 Contributors: Eoxia
-Donate link: https://www.eoxia.com/
-Tags: Comparateur de produit, Etoile, Best, Star, Note, Comparative, Software
-Requires at least: 4.4
-Requires PHP: 5.6.25
-Tested up to: 4.9.2
-Stable tag: 0.1.0
+Requires at least: 4.9.0
+Tested up to: 4.9.6
+Requires PHP: 5.6
+Stable tag: 1.0.0
+License: AGPLv3
+License URI: https://spdx.org/licenses/AGPL-3.0-or-later.html
 
 A tool used to compare everything you want with design to enrich your WordPress posts.
 
@@ -14,32 +14,15 @@ A tool used to compare everything you want with design to enrich your WordPress 
 A tool used to compare everything you want with design to enrich your WordPress posts.
 
 == Installation ==
-
-1. Upload `wp-star.php` to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Install the required plugin "Advanced Custom Fields"
-
-== Frequently Asked Questions ==
-
-= How works the plugin ? =
-
-After activating the plugin and installed ACF, you can add projects on a simple post.
-Projects appear automatically on the post in frontend.
+- In your backadmin, go to \"Plugins\" pannel
+- Install the plugin WP Star
+- Install required plugin : ACF Free and update it to version 5.x.x
+- Activate plugins WP Star and ACF
 
 == Screenshots ==
 
 == Changelog ==
 
-* Please save your data before updating the plugin
+= 1.0.0 =
 
-= 0.1.0 =
 Initial Commit
-
-== Upgrade Notice ==
-
-= 0.1.0 =
-Initial Commit
-
-== Contactez l'auteur ==
-
-contact@eoxia.com

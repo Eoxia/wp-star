@@ -1,13 +1,13 @@
 {
-	"name": "Test Core",
+	"name": "Core",
 	"slug": "core",
-	"version": "0.1.0",
-	"description": "Les fichiers core du plugin",
+	"version": "1.0.0",
+	"description": "Main files of wp_star",
 	"path": "core/",
 	"dependencies": {
+		"action": {},
 		"class": {},
-		"helper": {},
 		"util": {},
-		"action": {}
+		"helper": {}
 	}
 }

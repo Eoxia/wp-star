@@ -1,19 +1,22 @@
 <?php
 /**
- * Better Star Filter
+ * Filters of module Star
  *
- * @author Eoxia <contact@eoxia.com>
- * @since 1.0.0
- * @version 1.3.0
- * @package beflex
+ * @author    Eoxia <dev@eoxia.com>
+ * @copyright (c) 2006-2018 Eoxia <dev@eoxia.com>
+ * @license   AGPLv3 <https://spdx.org/licenses/AGPL-3.0-or-later.html>
+ * @package   WP_Star\star\Filters
+ * @since     1.0.0
  */
 
 namespace wp_star;
 
+defined( 'ABSPATH' ) || exit;
+
 /**
  * Main class of the theme
  */
-class wp_star_Filter {
+class Star_Filter {
 	/**
 	 * Constructor
 	 */
@@ -56,4 +59,4 @@ class wp_star_Filter {
 	}
 
 }
-new wp_star_Filter();
+new Star_Filter();
