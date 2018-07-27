@@ -1,10 +1,10 @@
 {
     "key": "group_5a21798fbbdc9",
-    "title": "Better Star - Comparateur",
+    "title": "WP Star - Comparateur",
     "fields": [
         {
             "key": "field_5a217d1d8255e",
-            "label": "Better Star - Comparateur",
+            "label": "Wp Star - Comparateur",
             "name": "wpstar_list_project",
             "type": "repeater",
             "instructions": "",

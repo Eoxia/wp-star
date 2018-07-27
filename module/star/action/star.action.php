@@ -1,17 +1,17 @@
 <?php
 /**
- * Les actions du module "Hello World".
+ * Actions of module Star
  *
- * @author Jimmy Latour <jimmy.eoxia@gmail.com>
- * @since 0.1.0
- * @version 0.1.0
- * @copyright 2015-2017 Eoxia
- * @package EO_Framework_Starter
+ * @author    Eoxia <dev@eoxia.com>
+ * @copyright (c) 2006-2018 Eoxia <dev@eoxia.com>
+ * @license   AGPLv3 <https://spdx.org/licenses/AGPL-3.0-or-later.html>
+ * @package   WP_Star\star\Actions
+ * @since     1.0.0
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
-}
+namespace wp_star;
+
+defined( 'ABSPATH' ) || exit;
 
 /**
  * Les actions du module "Hello World".
