@@ -47,7 +47,7 @@ class Star_Filter {
 	public function wp_star_content( $content ) {
 		$list_project = get_field( 'wpstar_list_project' );
 		if ( empty( $list_project ) ) :
-			return;
+			return $content;
 		endif;
 
 		ob_start();
