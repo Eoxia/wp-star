@@ -13,9 +13,6 @@ namespace wp_star;
 
 defined( 'ABSPATH' ) || exit;
 
-/**
- * Les actions du module "Hello World".
- */
 class Star_Action {
 
 	/**

@@ -14,7 +14,7 @@
  * @since 0.1.0
  * @version 0.1.0
  */
-window.eoxiaJS.eoFrameworkStarter.star = {};
+window.eoxiaJS.wp_star.star = {};
 
 /**
  * La méthode "init" est appelé automatiquement par la lib JS de Eo-Framework
@@ -24,6 +24,6 @@ window.eoxiaJS.eoFrameworkStarter.star = {};
  *
  * @return {void}
  */
-window.eoxiaJS.eoFrameworkStarter.star.init = function() {
+window.eoxiaJS.wp_star.star.init = function() {
 	jQuery( '.wpeo-wrap iframe' ).css( 'height', jQuery( window ).height() + 'px' );
 };

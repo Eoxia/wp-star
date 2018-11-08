@@ -52,11 +52,11 @@ class Core_Action {
 	 * @return void nothing
 	 */
 	public function callback_front_enqueue_scripts() {
-		wp_enqueue_style( 'wp-star-frontend-style', WP_STAR_PLUGIN_URL . 'core/asset/css/style.css', array(), \eoxia\Config_Util::$init['wp-star']->version );
+		wp_enqueue_style( 'wp-star-frontend-style', WP_STAR_PLUGIN_URL . 'core/assets/css/style.css', array(), \eoxia\Config_Util::$init['wp-star']->version );
 
 		/** URl of module in javascipt */
-		wp_register_script( 'wp-star-frontend-script', WP_STAR_PLUGIN_URL . 'core/asset/js/backend.min.js', array(), \eoxia\Config_Util::$init['wp-star']->version );
-		wp_localize_script( 'wp-star-frontend-script', 'wp-star_data', array( 'url' => WP_STAR_PLUGIN_URL ) );
+		wp_register_script( 'wp-star-frontend-script', WP_STAR_PLUGIN_URL . 'core/assets/js/backend.min.js', array(), \eoxia\Config_Util::$init['wp-star']->version );
+		wp_localize_script( 'wp-star-frontend-script', 'wp_star_data', array( 'url' => WP_STAR_PLUGIN_URL ) );
 		wp_enqueue_script( 'wp-star-frontend-script' );
 	}
 
