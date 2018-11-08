@@ -38,10 +38,16 @@ class Wp_Star_Util extends \eoxia\Singleton_Util {
 		 * If the source is NOT from the .org repo, then source is also required.
 		 */
 		$plugins = array(
+			// array(
+			// 	'name'     => 'Advanced Custom Fields',
+			// 	'slug'     => 'advanced-custom-fields',
+			// 	'required' => true,
+			// ),
 			array(
-				'name'     => 'Advanced Custom Fields',
-				'slug'     => 'advanced-custom-fields',
-				'required' => true,
+				'name'         => 'Advanced Custom Fields (Pro version)', // The plugin name.
+				'slug'         => 'advanced-custom-fields-pro', // The plugin slug (typically the folder name).
+				'required'     => true, // If false, the plugin is only 'recommended' instead of required.
+				'external_url' => 'https://www.advancedcustomfields.com/pro/', // If set, overrides default API URL and points to an external URL.
 			),
 		);
 

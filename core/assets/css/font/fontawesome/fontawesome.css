@@ -1,33 +1,10 @@
-/*--------------------------------------------------------------
- 	WP Star
-
-	@since 0.1.0
-  @version 0.1.0
- --------------------------------------------------------------*/
 /*!
  * Font Awesome Pro 5.0.6 by @fontawesome - http://fontawesome.com
  * License - http://fontawesome.com/license (Commercial License)
  */
 .fa,
 .fas,
-.wpst-list .wpst-note .wpst-note-star.wpst-no_note .wpst-note-icon,
-.wpst-list .wpst-note .wpst-note-star.wpst-1 .wpst-note-icon:nth-of-type(1),
-.wpst-list .wpst-note .wpst-note-star.wpst-2 .wpst-note-icon:nth-of-type(1),
-.wpst-list .wpst-note .wpst-note-star.wpst-2 .wpst-note-icon:nth-of-type(2),
-.wpst-list .wpst-note .wpst-note-star.wpst-3 .wpst-note-icon:nth-of-type(1),
-.wpst-list .wpst-note .wpst-note-star.wpst-3 .wpst-note-icon:nth-of-type(2),
-.wpst-list .wpst-note .wpst-note-star.wpst-3 .wpst-note-icon:nth-of-type(3),
-.wpst-list .wpst-note .wpst-note-star.wpst-4 .wpst-note-icon:nth-of-type(1),
-.wpst-list .wpst-note .wpst-note-star.wpst-4 .wpst-note-icon:nth-of-type(2),
-.wpst-list .wpst-note .wpst-note-star.wpst-4 .wpst-note-icon:nth-of-type(3),
-.wpst-list .wpst-note .wpst-note-star.wpst-4 .wpst-note-icon:nth-of-type(4),
-.wpst-list .wpst-note .wpst-note-star.wpst-5 .wpst-note-icon:nth-of-type(1),
-.wpst-list .wpst-note .wpst-note-star.wpst-5 .wpst-note-icon:nth-of-type(2),
-.wpst-list .wpst-note .wpst-note-star.wpst-5 .wpst-note-icon:nth-of-type(3),
-.wpst-list .wpst-note .wpst-note-star.wpst-5 .wpst-note-icon:nth-of-type(4),
-.wpst-list .wpst-note .wpst-note-star.wpst-5 .wpst-note-icon:nth-of-type(5),
 .far,
-.wpst-list .wpst-note .wpst-note-star .wpst-note-icon,
 .fal,
 .fab {
   -moz-osx-font-smoothing: grayscale;
@@ -87,9 +64,8 @@
   list-style-type: none;
   margin-left: 2.5em;
   padding-left: 0; }
-
-.fa-ul > li {
-  position: relative; }
+  .fa-ul > li {
+    position: relative; }
 
 .fa-li {
   left: -2em;
@@ -100,8 +76,7 @@
 
 .fa-border {
   border: solid 0.08em #eee;
-  -webkit-border-radius: .1em;
-          border-radius: .1em;
+  border-radius: .1em;
   padding: .2em .25em .15em; }
 
 .fa-pull-left {
@@ -112,137 +87,60 @@
 
 .fa.fa-pull-left,
 .fas.fa-pull-left,
-.wpst-list .wpst-note .wpst-note-star.wpst-no_note .fa-pull-left.wpst-note-icon,
-.wpst-list .wpst-note .wpst-note-star.wpst-1 .fa-pull-left.wpst-note-icon:nth-of-type(1),
-.wpst-list .wpst-note .wpst-note-star.wpst-2 .fa-pull-left.wpst-note-icon:nth-of-type(1),
-.wpst-list .wpst-note .wpst-note-star.wpst-2 .fa-pull-left.wpst-note-icon:nth-of-type(2),
-.wpst-list .wpst-note .wpst-note-star.wpst-3 .fa-pull-left.wpst-note-icon:nth-of-type(1),
-.wpst-list .wpst-note .wpst-note-star.wpst-3 .fa-pull-left.wpst-note-icon:nth-of-type(2),
-.wpst-list .wpst-note .wpst-note-star.wpst-3 .fa-pull-left.wpst-note-icon:nth-of-type(3),
-.wpst-list .wpst-note .wpst-note-star.wpst-4 .fa-pull-left.wpst-note-icon:nth-of-type(1),
-.wpst-list .wpst-note .wpst-note-star.wpst-4 .fa-pull-left.wpst-note-icon:nth-of-type(2),
-.wpst-list .wpst-note .wpst-note-star.wpst-4 .fa-pull-left.wpst-note-icon:nth-of-type(3),
-.wpst-list .wpst-note .wpst-note-star.wpst-4 .fa-pull-left.wpst-note-icon:nth-of-type(4),
-.wpst-list .wpst-note .wpst-note-star.wpst-5 .fa-pull-left.wpst-note-icon:nth-of-type(1),
-.wpst-list .wpst-note .wpst-note-star.wpst-5 .fa-pull-left.wpst-note-icon:nth-of-type(2),
-.wpst-list .wpst-note .wpst-note-star.wpst-5 .fa-pull-left.wpst-note-icon:nth-of-type(3),
-.wpst-list .wpst-note .wpst-note-star.wpst-5 .fa-pull-left.wpst-note-icon:nth-of-type(4),
-.wpst-list .wpst-note .wpst-note-star.wpst-5 .fa-pull-left.wpst-note-icon:nth-of-type(5),
 .far.fa-pull-left,
-.wpst-list .wpst-note .wpst-note-star .fa-pull-left.wpst-note-icon,
 .fal.fa-pull-left,
 .fab.fa-pull-left {
   margin-right: .3em; }
 
 .fa.fa-pull-right,
 .fas.fa-pull-right,
-.wpst-list .wpst-note .wpst-note-star.wpst-no_note .fa-pull-right.wpst-note-icon,
-.wpst-list .wpst-note .wpst-note-star.wpst-1 .fa-pull-right.wpst-note-icon:nth-of-type(1),
-.wpst-list .wpst-note .wpst-note-star.wpst-2 .fa-pull-right.wpst-note-icon:nth-of-type(1),
-.wpst-list .wpst-note .wpst-note-star.wpst-2 .fa-pull-right.wpst-note-icon:nth-of-type(2),
-.wpst-list .wpst-note .wpst-note-star.wpst-3 .fa-pull-right.wpst-note-icon:nth-of-type(1),
-.wpst-list .wpst-note .wpst-note-star.wpst-3 .fa-pull-right.wpst-note-icon:nth-of-type(2),
-.wpst-list .wpst-note .wpst-note-star.wpst-3 .fa-pull-right.wpst-note-icon:nth-of-type(3),
-.wpst-list .wpst-note .wpst-note-star.wpst-4 .fa-pull-right.wpst-note-icon:nth-of-type(1),
-.wpst-list .wpst-note .wpst-note-star.wpst-4 .fa-pull-right.wpst-note-icon:nth-of-type(2),
-.wpst-list .wpst-note .wpst-note-star.wpst-4 .fa-pull-right.wpst-note-icon:nth-of-type(3),
-.wpst-list .wpst-note .wpst-note-star.wpst-4 .fa-pull-right.wpst-note-icon:nth-of-type(4),
-.wpst-list .wpst-note .wpst-note-star.wpst-5 .fa-pull-right.wpst-note-icon:nth-of-type(1),
-.wpst-list .wpst-note .wpst-note-star.wpst-5 .fa-pull-right.wpst-note-icon:nth-of-type(2),
-.wpst-list .wpst-note .wpst-note-star.wpst-5 .fa-pull-right.wpst-note-icon:nth-of-type(3),
-.wpst-list .wpst-note .wpst-note-star.wpst-5 .fa-pull-right.wpst-note-icon:nth-of-type(4),
-.wpst-list .wpst-note .wpst-note-star.wpst-5 .fa-pull-right.wpst-note-icon:nth-of-type(5),
 .far.fa-pull-right,
-.wpst-list .wpst-note .wpst-note-star .fa-pull-right.wpst-note-icon,
 .fal.fa-pull-right,
 .fab.fa-pull-right {
   margin-left: .3em; }
 
 .fa-spin {
-  -webkit-animation: fa-spin 2s infinite linear;
-       -o-animation: fa-spin 2s infinite linear;
-          animation: fa-spin 2s infinite linear; }
+  animation: fa-spin 2s infinite linear; }
 
 .fa-pulse {
-  -webkit-animation: fa-spin 1s infinite steps(8);
-       -o-animation: fa-spin 1s infinite steps(8);
-          animation: fa-spin 1s infinite steps(8); }
-
-@-webkit-keyframes fa-spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg); } }
-
-@-o-keyframes fa-spin {
-  0% {
-    -o-transform: rotate(0deg);
-       transform: rotate(0deg); }
-  100% {
-    -o-transform: rotate(360deg);
-       transform: rotate(360deg); } }
+  animation: fa-spin 1s infinite steps(8); }
 
 @keyframes fa-spin {
   0% {
-    -webkit-transform: rotate(0deg);
-         -o-transform: rotate(0deg);
-            transform: rotate(0deg); }
+    transform: rotate(0deg); }
   100% {
-    -webkit-transform: rotate(360deg);
-         -o-transform: rotate(360deg);
-            transform: rotate(360deg); } }
+    transform: rotate(360deg); } }
 
 .fa-rotate-90 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
-  -webkit-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-       -o-transform: rotate(90deg);
-          transform: rotate(90deg); }
+  transform: rotate(90deg); }
 
 .fa-rotate-180 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
-  -webkit-transform: rotate(180deg);
-      -ms-transform: rotate(180deg);
-       -o-transform: rotate(180deg);
-          transform: rotate(180deg); }
+  transform: rotate(180deg); }
 
 .fa-rotate-270 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
-  -webkit-transform: rotate(270deg);
-      -ms-transform: rotate(270deg);
-       -o-transform: rotate(270deg);
-          transform: rotate(270deg); }
+  transform: rotate(270deg); }
 
 .fa-flip-horizontal {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
-  -webkit-transform: scale(-1, 1);
-      -ms-transform: scale(-1, 1);
-       -o-transform: scale(-1, 1);
-          transform: scale(-1, 1); }
+  transform: scale(-1, 1); }
 
 .fa-flip-vertical {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
-  -webkit-transform: scale(1, -1);
-      -ms-transform: scale(1, -1);
-       -o-transform: scale(1, -1);
-          transform: scale(1, -1); }
+  transform: scale(1, -1); }
 
 .fa-flip-horizontal.fa-flip-vertical {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
-  -webkit-transform: scale(-1, -1);
-      -ms-transform: scale(-1, -1);
-       -o-transform: scale(-1, -1);
-          transform: scale(-1, -1); }
+  transform: scale(-1, -1); }
 
 :root .fa-rotate-90,
 :root .fa-rotate-180,
 :root .fa-rotate-270,
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical {
-  -webkit-filter: none;
-          filter: none; }
+  filter: none; }
 
 .fa-stack {
   display: inline-block;
@@ -3263,202 +3161,3 @@ readers do not read off random characters that represent icons */
   overflow: visible;
   position: static;
   width: auto; }
-
-/*!
- * Font Awesome Pro 5.0.6 by @fontawesome - http://fontawesome.com
- * License - http://fontawesome.com/license (Commercial License)
- */
-.fab {
-  font-family: 'Font Awesome 5 Brands'; }
-
-/*!
- * Font Awesome Pro 5.0.6 by @fontawesome - http://fontawesome.com
- * License - http://fontawesome.com/license (Commercial License)
- */
-.fal {
-  font-family: 'Font Awesome 5 Pro';
-  font-weight: 300; }
-
-/*!
- * Font Awesome Pro 5.0.6 by @fontawesome - http://fontawesome.com
- * License - http://fontawesome.com/license (Commercial License)
- */
-.far, .wpst-list .wpst-note .wpst-note-star .wpst-note-icon {
-  font-family: 'Font Awesome 5 Pro';
-  font-weight: 400; }
-
-/*!
- * Font Awesome Pro 5.0.6 by @fontawesome - http://fontawesome.com
- * License - http://fontawesome.com/license (Commercial License)
- */
-.fa,
-.fas,
-.wpst-list .wpst-note .wpst-note-star.wpst-no_note .wpst-note-icon,
-.wpst-list .wpst-note .wpst-note-star.wpst-1 .wpst-note-icon:nth-of-type(1),
-.wpst-list .wpst-note .wpst-note-star.wpst-2 .wpst-note-icon:nth-of-type(1),
-.wpst-list .wpst-note .wpst-note-star.wpst-2 .wpst-note-icon:nth-of-type(2),
-.wpst-list .wpst-note .wpst-note-star.wpst-3 .wpst-note-icon:nth-of-type(1),
-.wpst-list .wpst-note .wpst-note-star.wpst-3 .wpst-note-icon:nth-of-type(2),
-.wpst-list .wpst-note .wpst-note-star.wpst-3 .wpst-note-icon:nth-of-type(3),
-.wpst-list .wpst-note .wpst-note-star.wpst-4 .wpst-note-icon:nth-of-type(1),
-.wpst-list .wpst-note .wpst-note-star.wpst-4 .wpst-note-icon:nth-of-type(2),
-.wpst-list .wpst-note .wpst-note-star.wpst-4 .wpst-note-icon:nth-of-type(3),
-.wpst-list .wpst-note .wpst-note-star.wpst-4 .wpst-note-icon:nth-of-type(4),
-.wpst-list .wpst-note .wpst-note-star.wpst-5 .wpst-note-icon:nth-of-type(1),
-.wpst-list .wpst-note .wpst-note-star.wpst-5 .wpst-note-icon:nth-of-type(2),
-.wpst-list .wpst-note .wpst-note-star.wpst-5 .wpst-note-icon:nth-of-type(3),
-.wpst-list .wpst-note .wpst-note-star.wpst-5 .wpst-note-icon:nth-of-type(4),
-.wpst-list .wpst-note .wpst-note-star.wpst-5 .wpst-note-icon:nth-of-type(5) {
-  font-family: 'Font Awesome 5 Pro';
-  font-weight: 900; }
-
-.wpst-list {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-  margin-left: -0.6em;
-  margin-right: -0.6em; }
-
-.wpst-list .wpst-project {
-  width: 50%; }
-
-@media (max-width: 600px) {
-  .wpst-list .wpst-project {
-    width: 100%; } }
-
-.wpst-list .wpst-project-container {
-  padding: 0.6em; }
-
-.wpst-list .wpst-project .wpst-thumbnail {
-  max-height: 260px;
-  overflow: hidden;
-  margin: 0;
-  padding: 0; }
-
-.wpst-list .wpst-project img {
-  width: 100%;
-  height: auto;
-  display: block; }
-
-.wpst-list .wpst-project .wpst-content {
-  background: #fff;
-  padding: 1em;
-  border: 1px solid rgba(0, 0, 0, 0.1); }
-
-.wpst-list .wpst-project .wpst-title {
-  text-align: center;
-  font-size: 14px;
-  color: rgba(0, 0, 0, 0.8);
-  text-transform: uppercase;
-  font-weight: 800; }
-
-.wpst-list .wpst-project .wpst-excerpt {
-  font-size: 16px;
-  margin: 0.6em 0;
-  color: rgba(0, 0, 0, 0.6);
-  text-align: center; }
-
-.wpst-list .wpst-list-note .wpst-note {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-  margin: 0.4em 0; }
-
-.wpst-list .wpst-list-note .wpst-note .wpst-note-label {
-  width: 50%;
-  font-size: 16px;
-  color: rgba(0, 0, 0, 0.8); }
-
-.wpst-list .wpst-list-note .wpst-note .wpst-note-star {
-  width: 50%;
-  text-align: right; }
-
-.wpst-list .wpst-list-note .wpst-note .wpst-note-description {
-  width: 100%;
-  font-size: 12px;
-  color: rgba(0, 0, 0, 0.8);
-  font-weight: 400; }
-
-.wpst-list .wpst-note .wpst-note-star {
-  color: #ffba17; }
-
-.wpst-list .wpst-note .wpst-note-star .wpst-note-icon:before {
-  content: "\f005"; }
-
-.wpst-list .wpst-note .wpst-note-star.wpst-no_note .wpst-note-icon {
-  color: #cacaca; }
-
-.wpst-list .wpst-note .wpst-note-star.wpst-no_note .wpst-note-icon:before {
-  content: "\f005"; }
-
-.wpst-list .wpst-note .wpst-note-star.wpst-1 .wpst-note-icon:nth-of-type(1):before {
-  content: "\f005"; }
-
-.wpst-list .wpst-note .wpst-note-star.wpst-2 .wpst-note-icon:nth-of-type(1):before {
-  content: "\f005"; }
-
-.wpst-list .wpst-note .wpst-note-star.wpst-2 .wpst-note-icon:nth-of-type(2):before {
-  content: "\f005"; }
-
-.wpst-list .wpst-note .wpst-note-star.wpst-3 .wpst-note-icon:nth-of-type(1):before {
-  content: "\f005"; }
-
-.wpst-list .wpst-note .wpst-note-star.wpst-3 .wpst-note-icon:nth-of-type(2):before {
-  content: "\f005"; }
-
-.wpst-list .wpst-note .wpst-note-star.wpst-3 .wpst-note-icon:nth-of-type(3):before {
-  content: "\f005"; }
-
-.wpst-list .wpst-note .wpst-note-star.wpst-4 .wpst-note-icon:nth-of-type(1):before {
-  content: "\f005"; }
-
-.wpst-list .wpst-note .wpst-note-star.wpst-4 .wpst-note-icon:nth-of-type(2):before {
-  content: "\f005"; }
-
-.wpst-list .wpst-note .wpst-note-star.wpst-4 .wpst-note-icon:nth-of-type(3):before {
-  content: "\f005"; }
-
-.wpst-list .wpst-note .wpst-note-star.wpst-4 .wpst-note-icon:nth-of-type(4):before {
-  content: "\f005"; }
-
-.wpst-list .wpst-note .wpst-note-star.wpst-5 .wpst-note-icon:nth-of-type(1):before {
-  content: "\f005"; }
-
-.wpst-list .wpst-note .wpst-note-star.wpst-5 .wpst-note-icon:nth-of-type(2):before {
-  content: "\f005"; }
-
-.wpst-list .wpst-note .wpst-note-star.wpst-5 .wpst-note-icon:nth-of-type(3):before {
-  content: "\f005"; }
-
-.wpst-list .wpst-note .wpst-note-star.wpst-5 .wpst-note-icon:nth-of-type(4):before {
-  content: "\f005"; }
-
-.wpst-list .wpst-note .wpst-note-star.wpst-5 .wpst-note-icon:nth-of-type(5):before {
-  content: "\f005"; }
-
-.wpst-list .wpst-list-link {
-  margin-top: 0.6em;
-  text-align: center; }
-
-.wpst-list .wpst-list-link .wpst-link {
-  margin: 0.2em 0;
-  -webkit-box-shadow: none;
-          box-shadow: none; }
-
-.wpst-list .wpst-list-link .wpst-link:hover {
-  color: #fff;
-  -webkit-box-shadow: inset 0 -2.6em rgba(255, 255, 255, 0.25) !important;
-          box-shadow: inset 0 -2.6em rgba(255, 255, 255, 0.25) !important; }
-
-.wpst-list .wpst-list-link .wpst-link:focus {
-  color: #fff; }

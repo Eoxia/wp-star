@@ -13,6 +13,8 @@ namespace wp_star;
 
 defined( 'ABSPATH' ) || exit;
 
+$wpst_average = '';
+$wpst_row     = 0;
 ?>
 <div class="wpst-list-note">
 	<?php while ( have_rows( 'wpstar_list_note' ) ) : the_row();
@@ -20,6 +22,11 @@ defined( 'ABSPATH' ) || exit;
 		$wpst_note_label       = get_sub_field( 'wpstar_label_note' );
 		$wpst_note_description = get_sub_field( 'wpstar_description_note' );
 		$wpst_note_star        = get_sub_field( 'wpstar_note' );
+
+		if ( is_numeric( $wpst_note_star ) ) :
+			$wpst_average += $wpst_note_star;
+			$wpst_row ++;
+		endif;
 		?>
 
 		<div class="wpst-note">
@@ -33,4 +40,10 @@ defined( 'ABSPATH' ) || exit;
 		</div>
 
 	<?php endwhile; ?>
+</div>
+
+<?php $wpst_average = $wpst_average / $wpst_row; ?>
+<div class="wpst-note-average">
+	<div class="wpst-note-star"><?php echo esc_html( number_format( $wpst_average, 1, '.', ',' ) ); ?></div>
+	<div class="wpst-note-label"><?php esc_html_e( 'Result', 'wp-star' ); ?></div>
 </div>
