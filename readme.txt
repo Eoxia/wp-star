@@ -3,7 +3,7 @@ Contributors: Eoxia
 Requires at least: 4.9.0
 Tested up to: 4.9.6
 Requires PHP: 5.6
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: AGPLv3
 License URI: https://spdx.org/licenses/AGPL-3.0-or-later.html
 

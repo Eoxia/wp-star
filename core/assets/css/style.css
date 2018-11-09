@@ -26,6 +26,8 @@
 .wpst-list .wpst-note .wpst-note-star.wpst-5 .wpst-note-icon:nth-of-type(3),
 .wpst-list .wpst-note .wpst-note-star.wpst-5 .wpst-note-icon:nth-of-type(4),
 .wpst-list .wpst-note .wpst-note-star.wpst-5 .wpst-note-icon:nth-of-type(5),
+.wpst-comment-author::before,
+.wpst-comment-author::after,
 .far,
 .wpst-list .wpst-note .wpst-note-star .wpst-note-icon,
 .fal,
@@ -126,6 +128,8 @@
 .wpst-list .wpst-note .wpst-note-star.wpst-5 .fa-pull-left.wpst-note-icon:nth-of-type(3),
 .wpst-list .wpst-note .wpst-note-star.wpst-5 .fa-pull-left.wpst-note-icon:nth-of-type(4),
 .wpst-list .wpst-note .wpst-note-star.wpst-5 .fa-pull-left.wpst-note-icon:nth-of-type(5),
+.fa-pull-left.wpst-comment-author::before,
+.fa-pull-left.wpst-comment-author::after,
 .far.fa-pull-left,
 .wpst-list .wpst-note .wpst-note-star .fa-pull-left.wpst-note-icon,
 .fal.fa-pull-left,
@@ -150,6 +154,8 @@
 .wpst-list .wpst-note .wpst-note-star.wpst-5 .fa-pull-right.wpst-note-icon:nth-of-type(3),
 .wpst-list .wpst-note .wpst-note-star.wpst-5 .fa-pull-right.wpst-note-icon:nth-of-type(4),
 .wpst-list .wpst-note .wpst-note-star.wpst-5 .fa-pull-right.wpst-note-icon:nth-of-type(5),
+.fa-pull-right.wpst-comment-author::before,
+.fa-pull-right.wpst-comment-author::after,
 .far.fa-pull-right,
 .wpst-list .wpst-note .wpst-note-star .fa-pull-right.wpst-note-icon,
 .fal.fa-pull-right,
@@ -3265,7 +3271,9 @@ readers do not read off random characters that represent icons */
 .wpst-list .wpst-note .wpst-note-star.wpst-5 .wpst-note-icon:nth-of-type(2),
 .wpst-list .wpst-note .wpst-note-star.wpst-5 .wpst-note-icon:nth-of-type(3),
 .wpst-list .wpst-note .wpst-note-star.wpst-5 .wpst-note-icon:nth-of-type(4),
-.wpst-list .wpst-note .wpst-note-star.wpst-5 .wpst-note-icon:nth-of-type(5) {
+.wpst-list .wpst-note .wpst-note-star.wpst-5 .wpst-note-icon:nth-of-type(5),
+.wpst-comment-author::before,
+.wpst-comment-author::after {
   font-family: 'Font Awesome 5 Pro';
   font-weight: 900; }
 
@@ -3390,3 +3398,22 @@ readers do not read off random characters that represent icons */
     box-shadow: inset 0 -2.6em rgba(255, 255, 255, 0.25) !important; }
   .wpst-list .wpst-list-link .wpst-link:focus {
     color: #fff; }
+
+.wpst-comment-author {
+  margin: 1em 0;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  padding: 0 1em; }
+  .wpst-comment-author::before, .wpst-comment-author::after {
+    display: block;
+    position: absolute;
+    color: rgba(0, 0, 0, 0.1); }
+  .wpst-comment-author::before {
+    content: "\f10d";
+    top: 0;
+    left: 0; }
+  .wpst-comment-author::after {
+    content: "\f10e";
+    bottom: 0;
+    right: 0; }

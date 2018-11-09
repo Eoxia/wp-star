@@ -171,6 +171,25 @@
                         }
                     ]
                 },
+								{
+										"key": "field_5a217abb980de",
+										"label": "Commentaire de l'auteur",
+										"name": "wpstar_comment_author",
+										"type": "text",
+										"instructions": "",
+										"required": 0,
+										"conditional_logic": 0,
+										"wrapper": {
+												"width": "",
+												"class": "",
+												"id": ""
+										},
+										"default_value": "",
+										"placeholder": "",
+										"prepend": "",
+										"append": "",
+										"maxlength": ""
+								},
                 {
                     "key": "field_5a217af2450df",
                     "label": "Ajout de boutons",

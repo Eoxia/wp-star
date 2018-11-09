@@ -1,0 +1,24 @@
+.wpst-comment-author {
+	margin: 1em 0;
+	text-align: center;
+	color: rgba(0,0,0,0.5);
+	position: relative;
+	padding: 0 1em;
+
+	&::before, &::after {
+		display: block;
+		@extend .fas;
+		position: absolute;
+		color: rgba(0,0,0,0.1);
+	}
+	&::before {
+		content: fa-content($fa-var-quote-left);
+		top: 0;
+		left: 0;
+	}
+	&::after {
+		content: fa-content($fa-var-quote-right);
+		bottom: 0;
+		right: 0;
+	}
+}

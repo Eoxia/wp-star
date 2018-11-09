@@ -42,6 +42,8 @@ if ( have_rows( 'wpstar_list_project' ) ) : ?>
 							<?php \eoxia\View_Util::exec( 'wp-star', 'star', 'note' ); ?>
 						<?php endif; ?>
 
+						<?php \eoxia\View_Util::exec( 'wp-star', 'star', 'comment' ); ?>
+
 						<?php if ( have_rows( 'wpstar_list_button' ) ) : ?>
 							<?php \eoxia\View_Util::exec( 'wp-star', 'star', 'link' ); ?>
 						<?php endif; ?>
