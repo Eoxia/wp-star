@@ -26,7 +26,7 @@ defined( 'ABSPATH' ) || exit;
 		<?php if ( ! empty( $wpst_link ) ) : ?>
 			<a class="wpst-link wpeo-button button-size-small button-radius-3 button-dark" href="<?php echo esc_url( $wpst_link ); ?>" target="<?php echo esc_html( $wpst_link_target ); ?>">
 				<?php if ( ! empty( $wpst_link_icon ) ) : ?>
-					<i class="fa-fw fas <?php echo esc_html( $wpst_link_icon ); ?>"></i>
+					<i class="fa-fw fas fa-<?php echo esc_html( $wpst_link_icon ); ?>"></i>
 				<?php endif; ?>
 				<span><?php echo ! empty( $wpst_link_label ) ? esc_html( $wpst_link_label ) : esc_html_e( 'View more', 'wp-star' ); ?></span>
 			</a>

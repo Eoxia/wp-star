@@ -242,7 +242,7 @@
                                 "id": ""
                             },
                             "default_value": "",
-                            "placeholder": "fa-long-arrow-right",
+                            "placeholder": "long-arrow-right",
                             "prepend": "",
                             "append": "",
                             "maxlength": ""
