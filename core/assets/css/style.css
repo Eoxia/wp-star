@@ -3277,6 +3277,9 @@ readers do not read off random characters that represent icons */
   font-family: 'Font Awesome 5 Pro';
   font-weight: 900; }
 
+.wpst-gallery {
+  margin-bottom: 1em; }
+
 .wpst-list {
   display: flex;
   flex-wrap: wrap;
