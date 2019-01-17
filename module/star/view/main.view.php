@@ -30,6 +30,8 @@ if ( have_rows( 'wpstar_list_project' ) ) : ?>
 					</figure>
 
 					<div class="wpst-content">
+						<?php \eoxia\View_Util::exec( 'wp-star', 'star', 'gallery' ); ?>
+
 						<?php if ( ! empty( $wpst_title ) ) : ?>
 							<div class="wpst-title"><?php echo esc_html( $wpst_title ); ?></div>
 						<?php endif; ?>
@@ -41,6 +43,7 @@ if ( have_rows( 'wpstar_list_project' ) ) : ?>
 						<?php if ( have_rows( 'wpstar_list_note' ) ) : ?>
 							<?php \eoxia\View_Util::exec( 'wp-star', 'star', 'note' ); ?>
 						<?php endif; ?>
+
 
 						<?php \eoxia\View_Util::exec( 'wp-star', 'star', 'comment' ); ?>
 

@@ -23,6 +23,10 @@ A tool used to compare everything you want with design to enrich your WordPress 
 
 == Changelog ==
 
+= 1.2.0 =
+- Gallery added
+- Lightbox added
+
 = 1.0.0 =
 
 Initial Commit

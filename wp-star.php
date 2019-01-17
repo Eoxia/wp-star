@@ -3,7 +3,7 @@
 Plugin Name:  WP Star 🌟
 Plugin URI:   https://eoxia.com
 Description:  A tool used to compare everything you want with design to enrich your WordPress posts.
-Version:      1.1.0
+Version:      1.2.0
 Author:       Eoxia
 Author URI:   https://eoxia.com
 license:      AGPLv3
