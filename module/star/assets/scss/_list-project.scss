@@ -1,0 +1,43 @@
+// Général
+.wpst-project {
+  .wpst-project-container {
+    padding: 0.6em;
+  }
+}
+
+// Thumbnail
+.wpst-project {
+	.wpst-thumbnail {
+		max-height: 260px;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+	}
+	img {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+}
+
+// Content
+.wpst-project {
+	.wpst-content {
+		background: #fff;
+		padding: 1em;
+		border: 1px solid rgba(0,0,0,0.1);
+	}
+	.wpst-title {
+		text-align: center;
+		font-size: 14px;
+		color: rgba(0,0,0,0.8);
+		text-transform: uppercase;
+		font-weight: 800;
+	}
+	.wpst-excerpt {
+		font-size: 16px;
+		margin: 0.6em 0;
+		color: rgba(0,0,0,0.6);
+		text-align: center;
+	}
+}

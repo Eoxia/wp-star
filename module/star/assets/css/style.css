@@ -1,0 +1,193 @@
+.wpst-gallery {
+  margin-bottom: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.wpst-gallery .wpst-gallery-item {
+  width: 33.333333%;
+}
+@media (max-width: 770px) {
+  .wpst-gallery .wpst-gallery-item {
+    width: 50%;
+  }
+}
+@media (max-width: 480px) {
+  .wpst-gallery .wpst-gallery-item {
+    width: 100%;
+  }
+}
+
+.simple-lightbox .dashicons {
+  font-size: 40px;
+}
+
+.wpst-project .wpst-project-container {
+  padding: 0.6em;
+}
+
+.wpst-project .wpst-thumbnail {
+  max-height: 260px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.wpst-project img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.wpst-project .wpst-content {
+  background: #fff;
+  padding: 1em;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.wpst-project .wpst-title {
+  text-align: center;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.wpst-project .wpst-excerpt {
+  font-size: 16px;
+  margin: 0.6em 0;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+.wpst-project .wpst-list-note .wpst-note {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0.4em 0;
+}
+.wpst-project .wpst-list-note .wpst-note .wpst-note-label {
+  width: 50%;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.wpst-project .wpst-list-note .wpst-note .wpst-note-star {
+  width: 50%;
+  text-align: right;
+}
+.wpst-project .wpst-list-note .wpst-note .wpst-note-description {
+  width: 100%;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 400;
+}
+
+.wpst-project .wpst-note .wpst-note-star {
+  color: #ffba17;
+}
+.wpst-project .wpst-note .wpst-note-star .wpst-note-icon::before {
+  content: "\f154";
+}
+.wpst-project .wpst-note .wpst-note-star.wpst-no_note .wpst-note-icon {
+  color: #cacaca;
+}
+.wpst-project .wpst-note .wpst-note-star.wpst-no_note .wpst-note-icon::before {
+  content: "\f155";
+}
+.wpst-project .wpst-note .wpst-note-star.wpst-1 .wpst-note-icon:nth-of-type(1)::before {
+  content: "\f155";
+}
+.wpst-project .wpst-note .wpst-note-star.wpst-2 .wpst-note-icon:nth-of-type(1)::before {
+  content: "\f155";
+}
+.wpst-project .wpst-note .wpst-note-star.wpst-2 .wpst-note-icon:nth-of-type(2)::before {
+  content: "\f155";
+}
+.wpst-project .wpst-note .wpst-note-star.wpst-3 .wpst-note-icon:nth-of-type(1)::before {
+  content: "\f155";
+}
+.wpst-project .wpst-note .wpst-note-star.wpst-3 .wpst-note-icon:nth-of-type(2)::before {
+  content: "\f155";
+}
+.wpst-project .wpst-note .wpst-note-star.wpst-3 .wpst-note-icon:nth-of-type(3)::before {
+  content: "\f155";
+}
+.wpst-project .wpst-note .wpst-note-star.wpst-4 .wpst-note-icon:nth-of-type(1)::before {
+  content: "\f155";
+}
+.wpst-project .wpst-note .wpst-note-star.wpst-4 .wpst-note-icon:nth-of-type(2)::before {
+  content: "\f155";
+}
+.wpst-project .wpst-note .wpst-note-star.wpst-4 .wpst-note-icon:nth-of-type(3)::before {
+  content: "\f155";
+}
+.wpst-project .wpst-note .wpst-note-star.wpst-4 .wpst-note-icon:nth-of-type(4)::before {
+  content: "\f155";
+}
+.wpst-project .wpst-note .wpst-note-star.wpst-5 .wpst-note-icon:nth-of-type(1)::before {
+  content: "\f155";
+}
+.wpst-project .wpst-note .wpst-note-star.wpst-5 .wpst-note-icon:nth-of-type(2)::before {
+  content: "\f155";
+}
+.wpst-project .wpst-note .wpst-note-star.wpst-5 .wpst-note-icon:nth-of-type(3)::before {
+  content: "\f155";
+}
+.wpst-project .wpst-note .wpst-note-star.wpst-5 .wpst-note-icon:nth-of-type(4)::before {
+  content: "\f155";
+}
+.wpst-project .wpst-note .wpst-note-star.wpst-5 .wpst-note-icon:nth-of-type(5)::before {
+  content: "\f155";
+}
+
+/** Moyenne */
+.wpst-project .wpst-note-average {
+  text-align: center;
+}
+.wpst-project .wpst-note-average .wpst-note-label {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.wpst-project .wpst-note-average .wpst-note-star {
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.wpst-project .wpst-list-link {
+  margin-top: 0.6em;
+  text-align: center;
+}
+
+.wpst-project .wpst-list-link .wpst-link {
+  margin: 0.2em 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.wpst-comment-author {
+  margin: 1em 0;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  padding: 0 1em;
+}
+.wpst-comment-author::before, .wpst-comment-author::after {
+  display: block;
+  position: absolute;
+  color: rgba(0, 0, 0, 0.1);
+  content: "\f122";
+  font-family: dashicons;
+}
+.wpst-comment-author::before {
+  top: 0;
+  left: 0;
+}
+.wpst-comment-author::after {
+  bottom: 0;
+  right: 0;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}

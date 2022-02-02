@@ -1,10 +1,8 @@
 {
   "main": "index.js",
   "scripts": {
-    "install": "git submodule init && git submodule update --remote --recursive --force",
     "update": "npm install",
-    "start": "node node_modules/gulp/bin/gulp.js",
-    "test": "mocha"
+    "start": "node node_modules/gulp/bin/gulp.js"
   },
   "author": "Eoxia",
   "contributors": [
@@ -16,9 +14,12 @@
   "license": "GPLv3",
   "devDependencies": {
     "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
     "gulp-concat": "latest",
-    "gulp-sass": "latest",
+    "gulp-rename": "latest",
+    "gulp-sass": "^5.0.0",
+    "gulp-uglify": "latest",
     "gulp-watch": "latest",
-    "gulp-rename": "latest"
+    "sass": "^1.35.1"
   }
 }

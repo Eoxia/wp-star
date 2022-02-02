@@ -1,0 +1,22 @@
+.wpst-gallery {
+	margin-bottom: 1em;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+
+  .wpst-gallery-item {
+    width: 33.333333%;
+
+    @media ( max-width: $media__medium ) {
+      width: 50%;
+    }
+    @media ( max-width: $media__small ) {
+      width: 100%;
+    }
+  }
+}
+
+.simple-lightbox .dashicons {
+  font-size: 40px;
+}

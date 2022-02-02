@@ -1,0 +1,24 @@
+.wpst-comment-author {
+	margin: 1em 0;
+	text-align: center;
+	color: rgba(0,0,0,0.5);
+	position: relative;
+	padding: 0 1em;
+
+	&::before, &::after {
+		display: block;
+		position: absolute;
+		color: rgba(0,0,0,0.1);
+    content: "\f122";
+    font-family: dashicons;
+  }
+	&::before {
+		top: 0;
+		left: 0;
+	}
+	&::after {
+		bottom: 0;
+		right: 0;
+    transform: rotate(180deg);
+	}
+}
